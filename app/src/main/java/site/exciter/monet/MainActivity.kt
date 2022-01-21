@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
                 PSConfig.Builder().needCrop(true).build(),
                 object : PictureSelector.PictureSelectorListener {
                     override fun onResult(uri: Uri?) {
-                        Glide.with(this@MainActivity).load(uri.path).into(imageView)
+                        Glide.with(this@MainActivity).load(uri?.path).into(imageView)
                     }
                 }
             )
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 PSConfig.Builder().needCrop(true).build(),
                 object : PictureSelector.PictureSelectorListener {
                     override fun onResult(uri: Uri?) {
-                        Glide.with(this@MainActivity).load(uri.path).into(imageView)
+                        Glide.with(this@MainActivity).load(uri?.path).into(imageView)
                     }
                 }
             )
