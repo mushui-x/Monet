@@ -12,6 +12,7 @@
 * 内置权限处理。
 
 #### 演示
+<img src="images/demo.gif" alt="演示1" width="270" height="480"/>
 
 #### 使用
 
